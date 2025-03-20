@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import Card from './card';
-import { socket } from '../utils/socket';
 import { message } from 'antd';
+import React, { useEffect, useState } from 'react';
+import { socket } from '../utils/socket';
+import Card from './Card';
 
 const DropZone = ({ roomId, currentTurnId, currentTurnName }) => {
   const [droppedCards, setDroppedCards] = useState([]);
