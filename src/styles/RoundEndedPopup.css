@@ -1,0 +1,88 @@
+.round-ended-popup .popup-header {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px;
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+}
+
+.round-ended-popup .popup-details {
+  margin: 20px;
+}
+
+.round-ended-popup .popup-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.round-ended-popup .icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.round-ended-popup .countdown-timer {
+  margin: 20px;
+}
+
+.round-ended-popup .icon-timer {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.round-ended-popup .countdown {
+  font-size: 24px;
+  color: #4caf50;
+}
+
+.ant-divider-dashed {
+  border-color: rgba(0, 0, 0, 0.18);
+  border-width: 1.5px;
+}
+
+.timerTexts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.icon-success {
+  color: #4caf50;
+}
+
+.icon-warning {
+  color: #ff9800;
+}
+
+.icon-danger {
+  color: #f44336;
+}
+
+.icon-secondary {
+  color: #607d8b;
+}
+
+.rowText {
+  margin-left: 15px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+}
+
+.values .ant-typography{
+  font-size: 18px;
+}
+
+.values{
+  margin-right: 15px;
+  width: 100px !important;
+}

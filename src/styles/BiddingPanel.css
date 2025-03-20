@@ -1,0 +1,102 @@
+/* BiddingPanel.css */
+
+.bidding-panel-content {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .bidding-panel-content p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .bidding-panel-content p strong {
+    color: #1890ff; /* Accent color for important info */
+  }
+  
+  .bidding-panel-content .ant-space {
+    margin-top: 30px !important;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+  }
+  
+  .bidding-panel-content .ant-btn {
+    font-size: 16px;
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .bidding-panel-content .ant-btn-default {
+    background-color: #f5f5f5;
+    border-color: #d9d9d9;
+  }
+  
+  .bidding-panel-content .ant-btn-default:hover {
+    background-color: #e6f7ff;
+    border-color: #40a9ff;
+  }
+  
+  .bidding-panel-content .ant-btn-primary {
+    background-color: #1890ff;
+    border-color: #1890ff;
+  }
+  
+  .bidding-panel-content .ant-btn-primary:hover {
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+  }
+  
+  .bidding-panel-content .ant-btn-primary:disabled {
+    background-color: #d9d9d9;
+    border-color: #d9d9d9;
+  }
+  
+  .bidding-panel-content .bid-button {
+    background-color: #f0f0f0;
+    border: 2px solid transparent;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .bidding-panel-content .bid-button:hover {
+    border-color: #1890ff;
+    background-color: #e6f7ff;
+  }
+  
+  .bidding-panel-content .bid-button-selected {
+    background-color: #1890ff !important;
+    color: white !important;
+    border-color: #1890ff !important;
+    box-shadow: 0 0 10px rgba(24, 144, 255, 0.6);
+  }
+  
+  .bidding-panel-content .bid-button:disabled {
+    background-color: #f5f5f5;
+    color: #bfbfbf;
+    border-color: #d9d9d9;
+  }
+  
+  .bidding-panel-content .bid-button:disabled:hover {
+    border-color: #d9d9d9;
+    background-color: #f5f5f5;
+    color: #bfbfbf;
+  }
+  
+  .bidding-panel-content .ant-btn-cancel {
+    background-color: #ff4d4f;
+    color: white;
+    border-color: #ff4d4f;
+  }
+  
+  .bidding-panel-content .ant-btn-cancel:hover {
+    background-color: #ff7875;
+    border-color: #ff7875;
+  }
+  

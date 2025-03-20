@@ -1,0 +1,120 @@
+.otherPlayerCard {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player1cards {
+  position: absolute;
+  left: 10%;
+  bottom: 12%;
+}
+
+.player2cards {
+  position: absolute;
+  top: 12%;
+  left: 10%;
+}
+
+.player3cards {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.player4cards {
+  position: absolute;
+  top: 12%;
+  right: 5%;
+}
+
+.player5cards {
+  position: absolute;
+  bottom: 12%;
+  right: 5%;
+}
+
+.buttonsDiv {
+  height: 315px;
+  width: 200px;
+  position: absolute;
+  align-items: center;
+  top: 28%;
+  left: 75%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.playerTurn {
+  border: 4px solid #00ff00;
+  border-radius: 55%;
+  animation: pulse 1.5s infinite;
+  display: flex;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 10px #00ff00;
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #00ff00;
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 10px #00ff00;
+  }
+}
+
+.playerNames {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 24px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.player3cards .playerTurn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.turnNotification {
+  position: absolute;
+  top: 25%;
+  left: 41%;
+  transform: translateX(-50%);
+  background-color: #ff9800;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  z-index: 1000;
+  animation: fadeIn 0.5s ease, bounce 1.5s infinite;
+}
+
+.turnNotification p{
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
